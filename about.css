@@ -1,0 +1,74 @@
+body {
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #e0e0e0; /* Light gray text */
+}
+
+header {
+    background: #007acc; /* Blue header */
+    color: #ffffff; /* White text */
+}
+
+.about-section {
+    text-align: center;
+    padding: 40px;
+    background: #2c2c2c; /* Dark background for the section */
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%; /* Centered section */
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Center the columns */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1; /* Grow to fill space */
+    max-width: 300px; /* Set a maximum width for the columns */
+    margin: 10px; /* Space between columns */
+}
+
+.card {
+    background: #2c2c2c; /* Dark background for cards */
+    border-radius: 8px;
+    overflow: hidden; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.card img {
+    width: 100%; /* Responsive image */
+}
+
+.container {
+    padding: 15px;
+}
+
+.container h2 {
+    margin: 0; /* No margin for h2 */
+}
+
+.title {
+    color: #ffcc00; /* Gold color for titles */
+    font-size: 1.1em; /* Slightly larger font */
+}
+
+.button {
+    background-color: #007acc; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button:hover {
+    background-color: #005f99; /* Darker blue on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007acc; /* Match footer with header */
+}

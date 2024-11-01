@@ -3,59 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harbinger - Home</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Harbinger - Streaming Platform</title>
 </head>
 <body>
     <header>
-        <div class="logo">Harbinger</div>
+        <h1 class="logo">Harbinger</h1>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>TV Shows</li>
-                <li>Movies</li>
-                <li>My List</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
-        <section class="banner">
-            <h1>Watch Unlimited Movies & TV Shows</h1>
-            <button>Watch Now</button>
+        <section class="game-section">
+            <h2>Featured Xbox Games</h2>
+            <div class="game-grid">
+                <div class="game">
+                    <img src="images/witcher3.jpeg" alt="The Witcher 3">
+                    <h3>The Witcher 3</h3>
+                    <p>An action RPG set in a rich, open world filled with quests and monsters.</p>
+                </div>
+                <div class="game">
+                    <img src="images/hades.jpeg" alt="Hades">
+                    <h3>Hades</h3>
+                    <p>A rogue-like dungeon crawler that combines action with an engaging narrative.</p>
+                </div>
+                <div class="game">
+                    <img src="images/stardew.jpeg" alt="Stardew Valley">
+                    <h3>Stardew Valley</h3>
+                    <p>A charming farming simulation game that lets you build the farm of your dreams.</p>
+                </div>
+                <div class="game">
+                    <img src="images/forza.jpeg" alt="Forza Horizon 5">
+                    <h3>Forza Horizon 5</h3>
+                    <p>The latest installment in the acclaimed racing series set in a beautiful open world.</p>
+                </div>
+                <div class="game">
+                    <img src="images/halo.jpeg" alt="Halo Infinite">
+                    <h3>Halo Infinite</h3>
+                    <p>The next chapter in the legendary Halo saga, with stunning visuals and gameplay.</p>
+                </div>
+                <div class="game">
+                    <img src="images/ori.jpeg" alt="Ori and the Will of the Wisps">
+                    <h3>Ori and the Will of the Wisps</h3>
+                    <p>A visually stunning platformer with an emotional story and intricate gameplay.</p>
+                </div>
+                <div class="game">
+                    <img src="images/destiny.jpeg" alt="Destiny 2">
+                    <h3>Destiny 2</h3>
+                    <p>A multiplayer online shooter with rich lore and dynamic gameplay.</p>
+                </div>
+                <div class="game">
+                    <img src="images/sekiro.jpeg" alt="Sekiro: Shadows Die Twice">
+                    <h3>Sekiro: Shadows Die Twice</h3>
+                    <p>An action-adventure game that blends stealth, strategy, and fast-paced combat.</p>
+                </div>
+                <div class="game">
+                    <img src="images/ghost.jpeg" alt="Ghost of Tsushima">
+                    <h3>Ghost of Tsushima</h3>
+                    <p>An open-world action-adventure game set in feudal Japan, focusing on stealth and combat.</p>
+                </div>
+            </div>
         </section>
-        
-        <section class="movies">
-            <h2>Trending Now</h2>
-            <div class="movie-list" id="trending-list"></div>
-        </section>
-
-        <section class="latest-releases">
-            <h2>Latest Releases</h2>
-            <div class="movie-list" id="latest-list"></div>
-        </section>
-        <section class="action-movies">
-            <h2>Action Movies</h2>
-            <div class="movie-list" id="action-list"></div>
-        </section>
-        
-        <section class="comedy-movies">
-            <h2>Comedy Movies</h2>
-            <div class="movie-list" id="comedy-list"></div>
-        </section>
-        
-        <section class="drama-movies">
-            <h2>Drama Movies</h2>
-            <div class="movie-list" id="drama-list"></div>
-        </section>
-        
-
     </main>
 
     <footer>
-        <p>© 2024 Harbinger, Inc. All rights reserved.</p>
+        <p>&copy; 2024 Harbinger</p>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
